@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3323" height="632" viewBox="0 0 3323 632">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        filter: url(#filter-2);
+      }
+
+      .cls-3 {
+        filter: url(#filter-3);
+      }
+
+      .cls-4 {
+        fill: #1fd7ff;
+      }
+    </style>
+    <filter id="filter" x="65" y="139" width="3204" height="450" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="3"/>
+      <feFlood result="flood" flood-color="#aba9a9" flood-opacity="0.65"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-2" x="1146" y="374" width="308" height="219" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="3"/>
+      <feFlood result="flood" flood-color="#aba9a9" flood-opacity="0.65"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-3" x="803" y="368" width="304" height="225" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="3"/>
+      <feFlood result="flood" flood-color="#aba9a9" flood-opacity="0.65"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="Fi_sol" data-name="Fi   sol" class="cls-1" d="M557.614,147.5H200.5q-30.114,0-59.77,17.916a156.842,156.842,0,0,0-48.478,45.015q-18.822,27.1-18.819,52.393V579.291h122.25V413.381h354.7V312.812h-354.7l-0.6-21.981q0-12.944,13.1-27.551t28.756-14.6H557.614V147.5Zm196.322,0H629.88V578.689H753.936V147.5ZM2066.16,386.282q0-33.72-19.27-54.5t-59.62-20.777H1683.45q-17.46,0-26.95-10.84t-9.48-20.475q0-10.536,6.92-20.174t18.37-9.636h370.31V147.5H1594.01q-31.6,0-51.63,21.83t-20.02,39.9V349.246q0,9.336,9.17,23.938t26.18,25.594q17.01,11,38.67,10.99h302.99a51.708,51.708,0,0,1,21.67,4.517q9.93,4.516,14.9,12.044a28.582,28.582,0,0,1,4.96,15.959q0,15.66-11.74,23.335T1906.9,473.3H1506.4V579.291h499.54q28.605,0,44.41-19.722t15.81-46.822V386.282Zm649.49-93.644q0-51.186-25-83.708t-57.21-46.973q-32.22-14.452-54.19-14.453H2252.54q-20.475,0-42.9,10.84a155.2,155.2,0,0,0-41.41,29.508,151.563,151.563,0,0,0-30.56,42.908,116.193,116.193,0,0,0-11.59,50.737v162q0,29.209,17.01,61.125t48.63,53.3q31.62,21.382,72.57,21.378h331.82q21.975,0,50.73-17.614t48.78-47.726a116.632,116.632,0,0,0,20.03-65.942V292.638ZM2573.52,454.2q-18.06,13.988-43.96,13.983H2316.68q-31.32,0-47.12-20.748t-16.41-51.118V311.824q0-15.632,12.19-29.466a96.441,96.441,0,0,1,28.61-22.249q16.41-8.419,27.55-8.422h191.2q40.95,0,59.92,19.544t18.97,47.509v88.7Q2591.59,440.218,2573.52,454.2Zm685.93,23.317H2964.66q-10.545,0-26.65-8.28t-28-24.54q-11.9-16.26-11.89-37.94V147.5H2778.58V466.376q0,16.26,17.72,43.962a184.338,184.338,0,0,0,45.2,48.327q27.48,20.63,56.62,20.626h361.33V477.517Z"/>
+  <path id="Shape_6_copy" data-name="Shape 6 copy" class="cls-2" d="M1444.18,583.99L1224.96,382.665l-70.47,72.324L1293.46,584Z"/>
+  <path class="cls-3" d="M811.942,583.225L1022.56,376.789l74.79,73.664L958.26,583.225H811.942Z"/>
+  <path class="cls-4" d="M825.658,144.262L1129.13,441.281l-2.36-.071L1492.94,79.577l62.83-56.556-427.2,288.572L962.406,144.469"/>
+</svg>

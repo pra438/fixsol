@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container-fluid head d-flex justify-content-around w-100 ">
+        <nav class="d-flex justify-content-md-around align-items-center justify-content-around w-100" id="navbar">
+            <div class="logo mr-2">
+                <img src="images/fixsol_logo.svg" alt="">
+            </div>
+            <div class="navi d-none d-md-flex pt-2">
+                <ul class="list-unstyled d-flex align-items-center" >
+                    <li><a href="#">Home</a></li>
+                    <li class="dropdown"><a class="dropdown-toggle text-decoration-none " data-toggle="dropdown" href="#">Products</a>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item text-dark" href="#">NINTEI</a>
+                          <a class="dropdown-item text-dark"href="#">OMS</a>
+                          <a class="dropdown-item text-dark"href="#">FIX ADAPTER</a>
+
+                        </div>
+                      </li>
+                      <li class="dropdown"><a class="dropdown-toggle text-decoration-none " data-toggle="dropdown" href="#">Services</a>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item text-dark" href="#">FIX TRAINING</a>
+                          <a class="dropdown-item text-dark"href="#">FIX CONSULTING</a>
+                          <a class="dropdown-item text-dark"href="#">FIX ONBOARDING</a>
+                          <a class="dropdown-item text-dark"href="#">SUPPORT & MAINTENANCE</a>
+                          <a class="dropdown-item text-dark"href="#">TESTING & AUTOMATION</a>
+                          <a class="dropdown-item text-dark"href="#">CASE STUDIES</a>
+
+                        </div>
+                      </li>
+                      <li class="dropdown"><a class="dropdown-toggle text-decoration-none " data-toggle="dropdown" href="#">About</a>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item text-dark" href="#">ABOUT US</a>
+                          <a class="dropdown-item text-dark"href="#">BUSINESS PRINCIPLES </a>
+                          <a class="dropdown-item text-dark"href="#">WHY US?</a>
+                          <a class="dropdown-item text-dark"href="#">PARTNERS</a>
+                          <a class="dropdown-item text-dark"href="#">NEWS & BLOGS</a>
+
+
+                        </div>
+                      </li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="mob d-md-none">
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <ul class="list-unstyled " >
+                        <li><a href="#">Home</a></li>
+                        <li class="dropdown"><a class="dropdown-toggle text-decoration-none " data-toggle="dropdown" href="#">Products</a>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item text-dark" href="#">NINTEI</a>
+                              <a class="dropdown-item text-dark"href="#">OMS</a>
+                              <a class="dropdown-item text-dark"href="#">FIX ADAPTER</a>
+    
+                            </div>
+                          </li>
+                          <li class="dropdown"><a class="dropdown-toggle text-decoration-none " data-toggle="dropdown" href="#">Services</a>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item text-dark" href="#">FIX TRAINING</a>
+                              <a class="dropdown-item text-dark"href="#">FIX CONSULTING</a>
+                              <a class="dropdown-item text-dark"href="#">FIX ONBOARDING</a>
+                              <a class="dropdown-item text-dark"href="#">SUPPORT & MAINTENANCE</a>
+                              <a class="dropdown-item text-dark"href="#">TESTING & AUTOMATION</a>
+                              <a class="dropdown-item text-dark"href="#">CASE STUDIES</a>
+    
+                            </div>
+                          </li>
+                          <li class="dropdown"><a class="dropdown-toggle text-decoration-none " data-toggle="dropdown" href="#">About</a>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item text-dark" href="#">ABOUT US</a>
+                              <a class="dropdown-item text-dark"href="#">BUSINESS PRINCIPLES </a>
+                              <a class="dropdown-item text-dark"href="#">WHY US?</a>
+                              <a class="dropdown-item text-dark"href="#">PARTNERS</a>
+                              <a class="dropdown-item text-dark"href="#">NEWS & BLOGS</a>
+    
+    
+                            </div>
+                          </li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                  </div>
+                  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            </div>
+        </nav>
+    </div>
+    <div class="hero d-flex justify-content-center align-items-center flex-column">
+        <h1 class="text-light ">News & Blogs</h1>
+        </div> 
+<div class="container-fluid wrapper pt-3 pb-4">
+  <h1 class="text-center text-light pt-4">News & Blogs</h1>
+  <div class="d-flex justify-content-center align-items-center">
+    <div class="line pb-5"></div>
+</div>
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="n1">
+                    <h4>News</h4>
+                </div>
+               <div class="main pl-3">
+                   <h3><a href="#">IFF – Road Show 2020, Pune</a></h3>
+               </div>
+               <div class="main mt-4 text-light px-3 pt-2">
+                   <p>Fidel Softech invites you to join Singapore FinTech Festival on 13th November 2017 </p>
+               </div>
+               <div class="main mt-4 text-light px-3 pt-2">
+                <p>FIXSOL delivered Corporate FIX Protocol training to Viteos Fund Services Ltd.  </p>
+            </div>
+            <div class="main mt-4 text-light px-3 pt-2">
+                <p>NINTE 3.2 version released for Multiple Session Testing Module </p>
+            </div>
+            <div class="main mt-4 text-light px-3 pt-2">
+                <p>FIXSOL delivered FIX Corporate Training to NSE.IT Ltd. </p>
+            </div>
+            <div class="main mt-4 text-light px-3 pt-2">
+                <p>FIXSOL delivered FIX Corporate Training to Stewart & Mackertich wealth management Ltd. </p>
+            </div>
+            <div class="main mt-4 text-light px-3 pt-2">
+                <p>FIXSOL delivered FIX Corporate Training to Motilal Oswal Securities. Ltd. </p>
+            </div>
+            <div class="grad">
+                <h5><a href="#">FIXSOL Participates in "The 11th Asia Pacific Trading Summit 2013, Hong Kong" held on 23rd May 2013</a></h5>
+            </div>
+            <div class="grad">
+                <h5><a href="#">FIXSOL Sponsors FPL Japan Trading Conference 2012, Tokyo</a></h5>
+            </div>
+            <div class="grad">
+                <h5><a href="#">FIXSOL Participates in Singapore FIX Conference 2012 held on 19th September 2012</a></h5>
+            </div>
+        </div>
+            <div class="col-lg-8">
+                <div class="n2 mt-3">
+                    <h4>Blog</h4>
+                </div>
+                <div class=" blogs owl-carousel">
+                <div class="main2 item">
+               <!-- <img src="images/bffcbb3c0a5f66158141ae3e6c89bf11.jpg"> -->
+                 <figure>
+               <img src="images/f49c2822d204faf3a2c0bb40122d5db6.jpg" class="img-fluid" alt="">
+                 </figure>
+                 <figcaption class="text-light p-4">
+                     <h3><a href="#">Blog - Reasons to adopt FIX Protocol</a></h3>
+                     <h6>What is the FIX protocol?</h6>
+                     <p>FIX stands as a short form for “Financial Information eXchange”. The FIX protocol is the specification developed for exchanging real-time financial information electronically.</p>
+                     <button type="button" class="btn btn-service">Continue Reading</button>
+                 </figcaption>
+                </div>
+                <div class="main3 mt-3 mt-lg-0 item">
+                    <!-- <img src="images/bffcbb3c0a5f66158141ae3e6c89bf11.jpg"> -->
+                      <figure>
+                    <img src="images/istockphoto-1005148228-612x612.jpg">
+                      </figure>
+                      <figcaption class="text-light p-3">
+                          <h3><a href="#">Blog - Why Remote FIX support is Today's Need? </a></h3>
+                          <p>Financial communication, including trading, executions, and many others is a complex process. The communication protocol isn’t as straightforward as it may be across other business domains.
+                            Hence, the need for an electronic communication protocol continued confronting financial players for decades. As a result, in 1992, the finance fraternity came up with FIX – Financial Information eXchange.</p>
+                          <button type="button" class="btn btn-service">Continue Reading</button>
+                      </figcaption>
+                     </div>
+                    </div>
+                    <div class=" blogs owl-carousel">
+                     <div class="main4 item">
+                        <!-- <img src="images/bffcbb3c0a5f66158141ae3e6c89bf11.jpg"> -->
+                          <figure>
+                        <img src="images/maxresdefault (2).jpg">
+                          </figure>
+                          <figcaption class="text-light p-3">
+                              <h3><a href="#">Blog - What is FIX Protocol? </a></h3>
+                              <p>FIX (Financial Information eXchange) protocol is the specification developed for exchanging the financial information electronically. It is currently used for electronic, accurate and speedy exchange of financial information, between the exchanges and exchange members, institutional investors and vendors of various markets around the world. It is used in various scenarios such as Trading, Clearing Open contract management, market rate information. The specifications are expanding every time the FIX protocol new version is released and hereafter the scenarios and specification will go on increasing.</p>
+                              <button type="button" class="btn btn-service">Continue Reading</button>
+                          </figcaption>
+                         </div>
+                         <div class="main4 mt-3 item">
+                            <!-- <img src="images/bffcbb3c0a5f66158141ae3e6c89bf11.jpg"> -->
+                              <figure>
+                            <img src="images/3764936.jpg">
+                              </figure>
+                              <figcaption class="text-light p-3">
+                                  <h3><a href="#">Blog - Latency Optimization  </a></h3>
+                                  <p>
+                                    This is the summary of analysis conducted for client for Ultra Low latency trading platform implementation.
+
+                                    Latency is the key factor in financial transactions. Latency affects the time between the initiation of a transaction and its execution. Any latency between initiation of trade and the match of the buy/sell to an appropriate sell/buy order provides an opportunity for the price to make an unfavorable change. Additional latency can literally cost money
+                                  </p>
+                                  <button type="button" class="btn btn-service">Continue Reading</button>
+                              </figcaption>
+                             </div>
+                            </div>
+                            <div class=" blogs owl-carousel">
+                             <div class="main4 mt-3 item">
+                                <!-- <img src="images/bffcbb3c0a5f66158141ae3e6c89bf11.jpg"> -->
+                                  <figure>
+                                <img src="images/1267556.jpg">
+                                  </figure>
+                                  <figcaption class="text-light p-3">
+                                      <h3><a href="#">Blog - Overall Algo Trading analysis </a></h3>
+                                      <p>
+                                        Based on the inputs from seminars from experts at trading summit and various conferences here we are analyzing overall industry stand for algorithmic trading.
+
+Global market (US & Europe region) trend is towards dark pool liquidity based algorithm more. Dark pool serves purpose of bulk trading volume and liquidity while adding anonymity benefits and less market impact. Whereas most of the emerging markets, dark pool liquidity based algorithms are not initiated yet. Overall in Asia trend for liquidity based algorithm is less.
+                                      </p>
+                                      <button type="button" class="btn btn-service">Continue Reading</button>
+                                  </figcaption>
+                                 </div>
+                                 <div class="main4 mt-3 item">
+                                    <!-- <img src="images/bffcbb3c0a5f66158141ae3e6c89bf11.jpg"> -->
+                                      <figure>
+                                    <img src="images/tranformacaodigital-2.jpg">
+                                      </figure>
+                                      <figcaption class="text-light p-4">
+                                          <h3><a href="#">Blog - Juggling Production Support - FIX Analysts </a></h3>
+                                          <p>
+                                            In recent years', rapid changes in financial world along with turbulence in worldwide economy resulted into limited headcount in financial organization. But workload and responsibilities are increasing for each and every resource in organizations
+
+                                          </p>
+                                          <button type="button" class="btn btn-service">Continue Reading</button>
+                                      </figcaption>
+                                     </div>
+                                     <div class="main4 mt-3 item">
+                                        <!-- <img src="images/bffcbb3c0a5f66158141ae3e6c89bf11.jpg"> -->
+                                          <figure>
+                                        <img src="images/jugg.jpg">
+                                          </figure>
+                                          <figcaption class="text-light p-4">
+                                              <h3><a href="#">Blog - Healthcare of Electronic Trading </a></h3>
+                                              <p>
+                                                Our lifestyle, in today's world is becoming busy and stressful day after day. This calls for an urge to keep monitoring our health to become much more active and competitive human being. As we pass on different stages of life, health checkups become essential for our better future.
+                                              </p>
+                                              <button type="button" class="btn btn-service">Continue Reading</button>
+                                          </figcaption>
+                                         </div>
+
+            </div>
+        </div>
+        </div>
+</div>
+</div>
+<div class="container-fluid contact pt-5">
+    <h1 class="text-center text-light">Get in Touch</h1>
+    <div class="d-flex justify-content-center align-items-center">
+        <div class="line pb-5"></div>
+    </div>
+    <div class="container">
+<div class="row align-items-center justify-content-center">
+<div class="col-md-5 text-light">
+    <h2 class="pb-4">Contact Us</h2>
+    
+    <div class="d-flex align-items-center flag ">
+        <img src="images/India-Flag.gif" alt="">
+        <h4 class="ml-2">India</h4>
+    </div>
+    <h3>Fidel Softech Pvt. Ltd.</h3>
+            <p class="text-justify">Marisoft IT Park 3, 2nd Floor,
+                West Wing, Kalyani Nagar,
+                Pune-411014 (MS). India.</p>
+           <h6>Phone:<span>+91-20-49007800</span></h6>    
+           <h6>Mail to: <span>sales@fixsol.com</span></h6> 
+</div>
+<div class="col-lg-7 pt-5 pb-3 text-light">
+    <form id="basic-form"  action="" method="post">
+        <p>
+          <input id="name" name="name" class="form-control" minlength="10" placeholder="Name" type="text" required>
+        </p>
+        <p>
+            <input id="name" name="companyname" class="form-control" placeholder="Company name" minlength="10" type="text"  required>
+          </p>
+        <p>
+          <input id="email" type="email" class="form-control" name="email" placeholder="Email" required>
+        </p>
+        <p>
+            <input id="phone" type="text" class="form-control" name="phone" placeholder="Phone no." required>
+          </p>
+        <textarea id="exampleFormControlTextarea1" placeholder="Message"  class="form-control" rows="3"></textarea>
+        <p class="mt-3">
+          <button type="submit" class="btn btn-contact submit" value="SUBMIT"><i class="far fa-paper-plane"></i> Submit</button>
+    
+        </p>
+    
+          
+        
+    </form>
+  
+</div>
+</div>
+</div>
+</div>
+<div class="container-fluid relative">
+    <div class="container pt-3">
+    <div class="row align-items-center h-100">
+        <div class="col-md-6 pl-4 text-light">
+            <h4>Related Links</h4>
+        </div>
+        <div class="col-md-6">
+            <ul class="list-unstyled d-flex">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">OMS</a></li>
+                <li><a href="#">Nintei</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+<div class="footer container-fluid d-flex align-items-center justify-content-center flex-column p-4">
+    <div class="follow ">
+        <ul class="list-unstyled d-flex align-items-center justify-content-center">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li class="ml-3 mr-3"><a href="#"><i class="fab fa-twitter "></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+    </div>
+    <p class="text-center text-light">@<a href="#">2021 FIXSOL. All rights reserved.</a></p>
+</div>
+
+    <script src=https://code.jquery.com/jquery-3.6.0.min.js></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
